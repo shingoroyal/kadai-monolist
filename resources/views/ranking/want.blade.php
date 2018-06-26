@@ -2,5 +2,6 @@
 
 @section('content')
     <h1>Wantランキング</h1>
-    @include('items.items', ['items' => $items])
+    @include('items.items', [ 'items' => $items,   'type' => $type,] )
+   
 @endsection
